@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ultimaker Interface</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <header>
+      <div id="TopNav-Container">
+        <ul>
+          <li class="nav-button" id="logo"><a href="#">Logo</a></li>
+          <li class="nav-button" id="file"><a href="#">File</a></li>
+          <li class="nav-button" id="edit"><a href="#">Edit</a></li>
+          <li class="nav-button"><a href="#">Machine</a></li>
+          <li class="nav-button"><a href="">View</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="Master-Container">
+      <div class="Container" id="Left-Container">
+        <div id="Motor-Container">
+          <ul>
+            <li id="Connection">Disconnected</li>
+            <li class="Pos_val">X:<a id="X_val"></a></li>
+            <li class="Pos_val">Y:<a id="Y_val"></a></li>
+            <li class="Pos_val">Z:<a id="Z_val"></a></li>
+          </ul>
+        </div>
+        <div id="Feedback-Container">
+          <ul>
+            <li class="Feedback">X-Motor:<a id="X-Motor"></a></li>
+            <li class="Feedback">Y-Motor:<a id="Y-Motor"></a></li>
+            <li class="Feedback">Z-Motor:<a id="Z-Motor"></a></li>
+            <li class="Feedback">LS-Right:<a id="LS_Right"></a></li>
+            <li class="Feedback">LS-LEft:<a id="LS_Left"></a></li>
+            <li class="Feedback">LS-Front:<a id="LS_Front"></a></li>
+            <li class="Feedback">LS-Back:<a id="LS_Back"></a></li>
+            <li class="Feedback">LS-Top:<a id="LS_Top"></a></li>
+            <li class="Feedback">LS-Bottom:<a id="LS_Bottom"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="Container" id="Middle-Container"></div>
+      <div class="Container" id="Right-Container">
+        <div class="Container" id="Visual-Container">
+          <div id="Machine">
+            <div id="Frame"></div>
+            <div id="Vertical-Axis"></div>
+            <div id="Horizontal-Axis"></div>
+            <div id="Drill"></div>
+          </div>
+        </div>
+        <div class="Container" id="Control-Container">
+          <div class="Controls" id="Up">Up</div>
+          <div class="Controls" id="Down">Down</div>
+          <div class="Controls" id="Left">Left</div>
+          <div class="Controls" id="Right">Right</div>
+        </div>
+      </div>
+      <div class="Container" id="Console-Container"></div>
+    </div>
+  </body>
+</html>
